@@ -1,0 +1,27 @@
+/* ch-18 rgba values */
+/* 
+RGBA === RED GREEN BLUE OPACITY / TRANSPARENCY
+opacity value range form 0 to 1
+
+0=== fully transparent
+1 === solid color
+*/
+#first {
+  color: rgb(255, 0, 0);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#second {
+  color: rgb(255, 0, 0);
+  background-color: rgba(0, 0, 0, 0.25);
+}
+#third {
+  color: rgb(255, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+}
+#fourth {
+  color: rgb(255, 0, 0);
+  background-color: rgba(0, 0, 0, 1);
+}
+body {
+  background-color: rgba(150, 150, 2, 0.33);
+}

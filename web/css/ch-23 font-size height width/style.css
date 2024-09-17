@@ -1,0 +1,17 @@
+/* ch-23 font-size height width */
+/* fout size === it responsible for the size of the text/font
+width === it is responsible for the width of the element
+height == it is  responsible for the hight of the element
+
+PIXEL values are ABSOLUTE(FIXED)
+*/
+* {
+  margin: 0;
+}
+h3 {
+  font-size: 60px;
+  color: #5c0029;
+  background-color: #857c8d;
+  width: 200px;
+  height: 300px;
+}

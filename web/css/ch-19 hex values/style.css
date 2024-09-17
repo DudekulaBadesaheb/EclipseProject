@@ -1,0 +1,38 @@
+/* ch-19 hex values */
+/* 
+hex values
+SYNTAX
+color: #rrggbb;
+color:#rrggbbaa;
+values for each color range form 0 to 15
+for each color we have to give two values but we can write only onedigit for each value
+e.g.123456789
+after 9=> 10-A, 11-B,12-C,13-D,15-F
+
+for any color
+minimum value is  00 and
+maximum value is  15 
+red ===#ff0000 ===#f00
+green===#00ff00 ===#0f0
+blue===#0000ff=== #00f
+
+*/
+#first {
+  color: #ff0000;
+  background-color: #000000;
+}
+#second {
+  color: #00ff00;
+  background-color: #0000ff;
+}
+#third {
+  color: #0000ff;
+  background-color: #00ff00;
+}
+#fourth {
+  color: #ffffff;
+  background-color: #000000;
+}
+body {
+  background-color: #678910;
+}

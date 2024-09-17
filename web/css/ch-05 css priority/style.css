@@ -1,0 +1,12 @@
+/* ch-05 css priority */
+/* inline css > internal css > external css */
+
+h2 {
+  background-color: red;
+  color: white;
+}
+
+h3 {
+  background-color: crimson;
+  color: white;
+}

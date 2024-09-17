@@ -1,0 +1,28 @@
+/* ch-78 transfrm property TSCALE val */
+/* TRANSFORM PROPERTIY SCALE VALUE
+transform: scaleX(value)
+transform: scaleY(value)
+
+SHORTHAND
+transform: scale(x,y);
+ */
+div {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+}
+.one {
+  background-color: red;
+  transform: scaleX(2);
+  transform: scaleX(0.5);
+}
+.two {
+  background-color: green;
+  transform: scaleY(0.5);
+  transform: scaleY(2);
+}
+.three {
+  background-color: blue;
+  transform: scale(0.5, 0.5);
+  transform: scale(1.5, 1.5);
+}

@@ -1,0 +1,55 @@
+/* ch-65 media queries min-width */
+/* MEADIA QUERIES
+ Responsive Design
+ 
+ we canStyle Element differently for different screen sizes
+
+ min-midth -- strting from
+ mx-width -- up to 
+
+Mobil First
+
+ */
+body {
+  background-color: yellow;
+}
+
+.banner {
+  background-color: blue;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+@media screen and (min-width: 576px) {
+  body {
+    background-color: red;
+  }
+  .banner {
+    background-color: yellow;
+  }
+  h1 {
+    color: red;
+    font-size: 60px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-color: gray;
+  }
+
+  .banner {
+    background-color: purple;
+  }
+  h1 {
+    color: white;
+    font-size: 40px;
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+}

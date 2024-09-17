@@ -1,0 +1,25 @@
+/* ch-27 vw & vh values */
+/* 
+vw === viewport width
+vh === viewport height
+
+1vw === 1 percent of the screen width
+1vh === 1 percent of the screen height
+*/
+/* browser reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.banner {
+  background-color: red;
+  width: 50vw;
+  height: 50vh;
+}
+.header {
+  background-color: blue;
+  width: 100vw;
+  height: 50vh;
+}

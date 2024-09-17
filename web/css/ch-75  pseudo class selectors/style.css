@@ -1,0 +1,43 @@
+/* ch-75 pseudo class selector */
+/* PSEUDO CLASS SELECTER 
+element hover*/
+p:hover {
+  font-size: 60px;
+  background-color: green;
+}
+.header:hover {
+  background-color: black;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  background-color: red;
+  color: white;
+  cursor: grab;
+  cursor: pointer;
+  cursor: progress;
+  cursor: help;
+  cursor: s-resize;
+  cursor: se-resize;
+  cursor: sw-resize;
+  cursor: all-scroll;
+  cursor: row-resize;
+  cursor: col-resize;
+  cursor: nwse-resize;
+  cursor: no-drop;
+  cursor: default;
+  cursor: -moz-grab;
+  cursor: inherit;
+  cursor: zoom-in;
+  cursor: -webkit-zoom-in;
+  cursor: move;
+  cursor: -moz-zoom-in;
+  cursor: -moz-zoom-out;
+  cursor: none;
+  cursor: not-allowed;
+  cursor: zoom-out;
+  cursor: text;
+  cursor: vertical-text;
+  cursor: wait;
+}

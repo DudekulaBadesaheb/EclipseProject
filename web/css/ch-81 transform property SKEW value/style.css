@@ -1,0 +1,35 @@
+/* ch-81 transform property SKEW value */
+/* TRANSFORM PROPERTY SKEW VALUE
+transform : skewX(angle)
+transform : skewY(angle)
+
+SHORTHAND
+transform : skew(X angle)
+transform : skew(X,Y);
+transform : skew(angle); is same as
+transform : skew(angle);
+ */
+
+div {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+}
+
+.one {
+  background-color: red;
+  transform: skewX(20deg);
+  transform: skewX(-20deg);
+}
+
+.two {
+  background-color: green;
+  transform: skewY(30deg);
+  transform: skewY(-30deg);
+}
+
+.three {
+  background-color: blue;
+  transform: skew(40deg, -98deg);
+  /* transform: skew(40deg); */
+}

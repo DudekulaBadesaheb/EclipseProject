@@ -1,0 +1,17 @@
+/* ch-07 id selelecter */
+/* id selector */
+body {
+  background-color: green;
+}
+#green {
+  background-color: black;
+  color: rgb(182, 216, 197);
+}
+#red {
+  color: red;
+  background-color: black;
+}
+p {
+  color: wheat;
+  background-color: red;
+}

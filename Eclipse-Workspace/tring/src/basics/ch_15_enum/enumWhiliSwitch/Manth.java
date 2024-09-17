@@ -1,0 +1,5 @@
+package basics.ch_15_enum.enumWhiliSwitch;
+
+public enum Manth {
+JANUARY,FEBRAUARY,MARCH,APRIL,MAY,JUNE,JULY,AUGUST,SEPTAMBER,OCTOMBER,NOVEMBER,DECEMBER;
+}

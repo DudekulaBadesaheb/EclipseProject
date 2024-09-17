@@ -1,0 +1,32 @@
+/* ch-62  position ABSOULUTE */
+/*
+position: static;  (DEFAULT)
+position: relative;
+position: absolute;
+position fixed
+
+
+*/
+div {
+  border: 3px solid red;
+  background-color: yellowgreen;
+  margin-top: 40px;
+  position: static;
+}
+.one {
+  background-color: blue;
+  color: white;
+}
+.two {
+  background-color: green;
+  color: white;
+  position: relative;
+}
+.special {
+  background-color: lightcoral;
+  color: blue;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+}

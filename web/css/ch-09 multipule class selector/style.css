@@ -1,0 +1,19 @@
+/* ch-09 multipule class selector */
+#title {
+  border: 2px solid red;
+}
+
+.green {
+  color: green;
+  background-color: black;
+}
+.red {
+  color: red;
+  background-color: black;
+}
+.lowercase {
+  text-transform: lowercase;
+}
+.uppercase {
+  text-transform: uppercase;
+}

@@ -1,0 +1,22 @@
+/* ch-13 universal selecter */
+/* universal selecter in CSS is used to selecter all the elemwnt on the HTML page
+universel selecter will have the least specificity SYNTAX
+*{ 
+preperty: value
+} */
+p {
+  color: red;
+  background-color: wheat;
+}
+* {
+  background-color: green;
+  font-family: monospace;
+  line-height: 2em;
+}
+div {
+  color: blue;
+  border: 3px solid blue;
+}
+h1 {
+  color: red;
+}

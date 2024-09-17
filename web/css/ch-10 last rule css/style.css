@@ -1,0 +1,8 @@
+/* ch-10 last rule css */
+p {
+  color: blue;
+  background-color: black;
+}
+p {
+  color: green;
+}

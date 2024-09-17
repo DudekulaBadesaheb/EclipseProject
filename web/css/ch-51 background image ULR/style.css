@@ -1,0 +1,18 @@
+/* ch-52 background image */
+
+/* background-image: url(location)
+SHORTHAND
+background :url (location) */
+div {
+  height: 800px;
+  color: red;
+}
+.Big-image {
+  background-image: url(./big-image.jpg);
+}
+.Small-image {
+  background-image: url(./small-image.jpg);
+}
+.folder-image {
+  background-image: url(./img/folder-image.jpg);
+}

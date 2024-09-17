@@ -1,0 +1,20 @@
+/* ch_06 element selectar*/
+/* selectore
+element selectors
+grop element selectors
+*/
+body {
+  background-color: aqua;
+  color: red;
+}
+h1 {
+  color: green;
+}
+/* grouping element selectors*/
+h2,
+h3 {
+  color: red;
+}
+h1 {
+  text-transform: uppercase;
+}

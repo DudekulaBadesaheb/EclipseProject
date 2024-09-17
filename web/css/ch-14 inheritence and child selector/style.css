@@ -1,0 +1,19 @@
+/* ch-14 inheritence and child selectos */
+body {
+  background-color: green;
+  font-size: 25px;
+}
+div {
+  background-color: white;
+}
+p {
+  background-color: red;
+  color: white;
+}
+div > p {
+  color: white;
+  background-color: black;
+}
+div > h1 {
+  color: blue;
+}

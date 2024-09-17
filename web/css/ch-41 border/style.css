@@ -1,0 +1,38 @@
+/* ch-41 border */
+/* BORDER
+PROPERTIES
+border-width:
+border-style:
+border-color:
+boder-bottom-width:
+boder-bottom-style:
+boder-bottom-color:
+
+SHORTHAND
+border: width | style |color;
+ */
+/* brower default styles reset */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  background-color: red;
+  color: white;
+  padding: 20px;
+  margin: 30px;
+  border-color: green;
+  border-width: 20px;
+  border-style: solid;
+  border-bottom-style: dashed;
+  border-bottom-width: 10px;
+  border-bottom-color: cornflowerblue;
+}
+p {
+  background-color: blue;
+  color: white;
+  border: 15px solid yellow;
+  padding: 20px;
+  margin: 30px;
+}

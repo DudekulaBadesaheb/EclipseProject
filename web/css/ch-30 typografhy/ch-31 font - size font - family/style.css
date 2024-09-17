@@ -1,0 +1,15 @@
+/* ch-31 font - size font - family */
+/* PROPERTIES
+1. FONT-SIZE
+2.font-family
+
+*/
+body {
+  font-family: Helvetica;
+  font-size: 32px;
+}
+h1 {
+  font-family: verdana;
+  background-color: blue;
+  color: brown;
+}

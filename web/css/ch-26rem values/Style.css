@@ -1,0 +1,18 @@
+/* ch-26rem values */
+/* 
+rem === relative to the root
+1 rem === 16px default browser style
+ */
+html {
+  font-size: 50px;
+}
+
+div {
+  font-size: 20px;
+}
+.cat {
+  font-size: 2rem;
+}
+.dog {
+  font-size: 100px;
+}

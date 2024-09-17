@@ -1,0 +1,29 @@
+/* ch-54 background-position */
+/* background-position: x y 
+background-position: 0 0
+background-position: center
+background-position: 100% 100%
+*/
+div {
+  height: 200px;
+  color: red;
+}
+.Big-image {
+  background-image: url(./big-image.jpg);
+
+  background-size: cover;
+  background-position: center;
+}
+.Small-image {
+  background-image: url(./small-image.jpg);
+  background-repeat: no-repeat;
+
+  background-position: 100% 100%;
+  background-position: 0 0;
+}
+.folder-image {
+  background-image: url(./folder-image.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 300px 100px;
+}

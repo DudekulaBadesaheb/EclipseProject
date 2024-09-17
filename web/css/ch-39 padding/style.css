@@ -1,0 +1,34 @@
+/* ch-39 padding */
+/* CSS BOX MODEL
+padding === it is the space between content and the border
+
+PROPERTIES
+padding-top: 
+padding-left: 
+padding-right: 
+padding-bottom:
+
+
+SHORTHAND
+padding: top | left | right | bottom; 4 values
+padding: top & bottom | left & right; 2 values
+padding: top | left & right | bottom; 3 values
+ */
+
+h1 {
+  background-color: red;
+  color: aliceblue;
+  padding-left: 25px;
+  padding-top: 25px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+}
+
+p {
+  background-color: black;
+  color: antiquewhite;
+  padding: 30px;
+  padding: 20px 30px;
+  padding: 30px 20px 30px;
+  padding: 10px 20px 30px 40px;
+}

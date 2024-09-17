@@ -1,0 +1,34 @@
+/* ch-64  position fixed */
+/*
+position: static;  (DEFAULT)
+position: relative;
+position: absolute;
+absition: fixed;
+
+if th eparent element position is static and child element position is absolute then the offset value like top ,bottom ,left,right will be form the web page and not from the parent element .
+*/
+div {
+  border: 3px solid red;
+  background-color: yellowgreen;
+  margin-top: 40px;
+  position: static;
+}
+.one {
+  background-color: blue;
+  color: white;
+}
+.two {
+  background-color: green;
+  color: white;
+  position: relative;
+  position: static;
+}
+.special {
+  background-color: lightcoral;
+  color: blue;
+  font-size: 20px;
+
+  position: fixed;
+  top: 0%;
+  left: 0%;
+}

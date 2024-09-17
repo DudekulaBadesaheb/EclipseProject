@@ -1,0 +1,52 @@
+/* https://youtu.be/lQhwDamesx0 */
+/* ch-82 transition */
+/* TRANSITION means change over time
+
+transition -property:
+transition -duration:
+transition -delay:
+
+SHORTHAND
+
+transition: property duration delay;
+
+*/
+div {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+}
+.one {
+  background-color: red;
+  border-radius: 50%;
+  transition: all 5s 5s;
+}
+
+.two {
+  background-color: green;
+  border-radius: 50%;
+  transition: all 5s 10s;
+}
+
+.three {
+  background-color: blue;
+  border-radius: 50%;
+  transition: all 5s 15s;
+}
+
+.one:hover {
+  border-radius: 0%;
+  background-color: coral;
+  transition: all 1s;
+}
+
+.two:hover {
+  border-radius: 0%;
+  background-color: crimson;
+  transition: all 1s;
+}
+.three:hover {
+  border-radius: 0%;
+  background-color: yellowgreen;
+  transition: all 1s;
+}

@@ -1,0 +1,25 @@
+/*  */
+/* RESET BROWSER DEFAULTS */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+div {
+  height: 100vh;
+  width: 33.33%;
+  color: white;
+  float: left;
+}
+.one {
+  background-color: red;
+}
+.two {
+  background-color: blue;
+}
+.three {
+  background-color: green;
+}
+h1 {
+  clear: left;
+}

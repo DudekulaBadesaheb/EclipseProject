@@ -1,0 +1,25 @@
+/* ch-68 pseudo element */
+/* PSEUDO ELEMENTS
+::before
+::after 
+
+PROPERTY COntent is required
+content: "";
+*/
+p::before {
+  content: "hello";
+  display: block;
+  background-color: black;
+  color: red;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+p::after {
+  content: "after";
+  display: block;
+  background-color: black;
+  color: red;
+  font-size: 2rem;
+  font-weight: bold;
+}

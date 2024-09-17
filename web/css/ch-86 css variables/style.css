@@ -1,0 +1,56 @@
+/* ch-86 css variables */
+/* CCS variables is also know as CUSTOM PROPERTIES
+
+variable will hold a value and we ca resue the the variable
+
+SYNTAX FOR CREATING VARIABLE
+
+--variableName: value  ex:-#j338
+
+SYNTAX FOR CALLING / USING VARIABLE
+property: var(--variableName);
+
+scope
+:root{}   === GLOBAL
+element{} === LOCAL
+*/
+/* .heading {
+  color: #f15025;
+}
+.text {
+  color: #32ff0e;
+}
+.main-text {
+  color: #1313fa;
+}
+.second-heading {
+  color: #f15025;
+} */
+
+/* GLOBAL VARIABLE */
+:root {
+  --primarycolor: #1313fa;
+  --secondaryColor: #f15025;
+  --mainTransition: all 0.5s linear;
+}
+.heading {
+  color: var(--primarycolor);
+}
+.second-heading {
+  color: var(--primarycolor);
+  transition: var(--mainTransition);
+}
+.second-heading:hover {
+  color: var(--secondaryColor);
+}
+
+/* local variable */
+div {
+  --primaryRed: red;
+}
+.main-text {
+  color: var(--primaryRed);
+}
+.third-heading {
+  color: var(--primaryRed);
+}

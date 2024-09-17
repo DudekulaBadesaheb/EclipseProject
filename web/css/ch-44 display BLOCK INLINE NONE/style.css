@@ -1,0 +1,26 @@
+/* D:\web\css\ch-44 display BLOCK INLINE NONE */
+/* 
+BLOCK ELEMENT
+always starts in a new line and takes full width of the web page
+
+INLINE ELEMENT
+does not start in new line and only takes space as mauch as of content space
+
+
+DISPLAY
+PROPERTIES
+display: black;
+display: inline;
+display: none; (DEFAULT)*/
+.block {
+  background-color: blue;
+  color: white;
+  display: inline;
+  display: block;
+}
+.inline {
+  background-color: red;
+  color: white;
+  display: block;
+  /* display: inline; */
+}

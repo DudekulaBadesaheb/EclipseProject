@@ -1,0 +1,51 @@
+/* ch-85 animation-fill-mode */
+/* ANIMATION-FILL-MODE
+
+wate values are applied by the animation
+outside the time it is execution
+
+animation -fill -mode:backwards
+animation -fill -mode: forword
+animation -fill -mode: both
+*/
+div {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  color: white;
+}
+.transition {
+  background-color: red;
+  transition: all 2s linear;
+}
+.transition:hover {
+  background-color: orange;
+  transform: translateX(100px);
+}
+.animation {
+  background-color: blue;
+  animation-name: move;
+  animation-iteration-count: infinite;
+  animation: move 5s 1;
+  animation-fill-mode: backwards;
+  animation-fill-mode: forwards;
+  animation-fill-mode: both;
+}
+@keyframes move {
+  0% {
+    transform: translateX(20px);
+    background-color: firebrick;
+  }
+  50% {
+    transform: translateX(100px);
+    background-color: green;
+  }
+  075% {
+    transform: translateX(-200px);
+    background-color: forestgreen;
+  }
+  100% {
+    transform: translateX(20px);
+    background-color: fuchsia;
+  }
+}

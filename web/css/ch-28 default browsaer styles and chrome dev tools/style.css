@@ -1,0 +1,10 @@
+/* ch-27 vw & vh values */
+/*  google chrome dev tool -F12*/
+h1 {
+  color: red;
+  font-size: 64px;
+}
+p {
+  color: blue;
+  font-size: 40px;
+}

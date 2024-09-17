@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .login-form {
+        border: 1px rgb(255, 0, 0) solid;
+        width: 200px;
+        height: 200px;
+        margin: auto;
+        background-color: aquamarine;
+      }
+
+      input[type="submit"] {
+        color: brown;
+        margin: 0 auto;
+        display: block;
+      }
+      input {
+        margin: 0 auto;
+        display: block;
+      }
+    </style>
+    <script>
+      function get_form_name() {
+        var contact = document.getElementById("contact").value;
+        var username = document.getElementById("username").value;
+        var password = document.getElementById("password").value;
+        var email = document.getElementById("email").value;
+        if (password.length >= 4 && password.length <= 8) {
+          return true;
+        } else {
+          alert("pasword must be 8 charecter long");
+          return false;
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <form method="get" action="" class="login-form" onsubmit="get_form_name()">
+      <input type="contact" id="contact" placeholder="contact" /><br />
+      <input type="text" id="username" placeholder="username" /><br />
+      <input type="password" id="password" placeholder="password" /><br />
+      <input type="email" id="email" placeholder="gmail" /><br />
+      <input type="submit" id="submit" /><br />
+    </form>
+  </body>
+</html>

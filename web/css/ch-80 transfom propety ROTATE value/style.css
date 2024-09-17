@@ -1,0 +1,32 @@
+/* ch-80 transfrm property ROTATE value */
+/* TRANSFORM PROPERTIY SCALE VALUE
+transform: rotateZ(angle)
+
+
+SHORTHAND
+transform: rotate(angle);
+transform: rotateZ(); is same as
+transform: rotate();
+
+
+ */
+div {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+}
+
+.one {
+  background-color: red;
+  transform: rotate(135deg);
+}
+.two {
+  background-color: green;
+  transform: rotateZ(45deg);
+  transform: rotateZ(55deg);
+  transform: rotateZ(35deg);
+}
+.three {
+  background-color: blue;
+  transform: rotateX(95deg);
+}

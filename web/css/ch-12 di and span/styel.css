@@ -1,0 +1,27 @@
+/* ch-12 di and span */
+/* 
+div and span are elements do not have sementic meaning.
+div and span are generic and should be used for groping elements.
+div is used to grop block element.
+span is used to group inline text
+ */
+div {
+  color: green;
+  background-color: gray;
+}
+.red {
+  color: red;
+  background-color: black;
+}
+.uppercase {
+  text-transform: uppercase;
+  color: black;
+  background-color: wheat;
+}
+.black {
+  color: blue;
+  background-color: white;
+}
+h1 {
+  color: yellow;
+}

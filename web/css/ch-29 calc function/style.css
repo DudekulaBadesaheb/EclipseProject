@@ -1,0 +1,28 @@
+/* ch-19 calc function */
+/* calc function
+it is used to perform math operations
+like addition subtraction multiplication
+division
+SYNTAX
+calc()
+
+mix and match values
+*/
+/* reset the browser default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 500px;
+  height: 50%;
+}
+.navbar {
+  background-color: blue;
+  color: wheat;
+  height: 100px;
+  font-size: 3rem;
+}
+.banner {
+  background-color: red;
+  min-height: calc(100vh - 100px);
+}

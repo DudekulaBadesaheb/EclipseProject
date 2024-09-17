@@ -1,0 +1,27 @@
+/* ch-52 background repead */
+
+/*  background-repeat: repeat;(DEFAULT)*/
+/*  background-repeat: round;
+/*  background-repeat: no-repeat;
+/*  background-repeat: repeat-x;
+/*  background-repeat: repeat-y;
+/*  background-repeat: space;*/
+div {
+  height: 200px;
+  color: red;
+}
+.Big-image {
+  background-image: url(./big-image.jpg);
+  background-repeat: round;
+}
+.Small-image {
+  background-image: url(./small-image.jpg);
+  background-repeat: no-repeat;
+  background-repeat: repeat;
+  background-repeat: repeat-x;
+  background-repeat: repeat-y;
+}
+.folder-image {
+  background-image: url(./img/folder-image.jpg);
+  background-repeat: space;
+}

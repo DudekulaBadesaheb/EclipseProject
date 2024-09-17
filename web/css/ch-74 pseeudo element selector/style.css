@@ -1,0 +1,15 @@
+/* ch-74 pseeudo element selector */
+/* PSEUDO ELEMENT SELECTORS
+element::first-letter
+element::first-line
+ */
+
+p::first-line {
+  font-weight: bold;
+  background-color: black;
+  color: red;
+}
+p::first-letter {
+  font-size: 4rem;
+  color: green;
+}

@@ -1,0 +1,25 @@
+/* ch-56 linear-gradieant */
+div {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+}
+
+.one {
+  background: linear-gradient(red, green);
+}
+.two {
+  background: linear-gradient(to top, yellow, green);
+}
+.three {
+  background: linear-gradient(315deg, red, green);
+}
+.four {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9));
+}
+.five {
+  background: linear-gradient(190deg, rgba(0, 1, 2, 3), rgba(4, 5, 6, 0));
+}
+.six {
+  background: linear-gradient(to top, red, green, blue);
+}

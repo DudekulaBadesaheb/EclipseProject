@@ -1,0 +1,66 @@
+/* ch-66 media queries max -width */
+body {
+  background-color: yellow;
+}
+
+.banner {
+  background-color: blue;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+@media screen and (max-width: 360px) {
+  body {
+    background-color: green;
+  }
+
+  .banner {
+    background-color: chocolate;
+  }
+
+  h1 {
+    color: white;
+    color: black;
+    font-size: 40px;
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+}
+
+@media screen and (min-width: 568px) and (max-width: 767px) {
+  body {
+    background-color: blue;
+  }
+
+  .banner {
+    background-color: purple;
+  }
+
+  h1 {
+    color: white;
+    font-size: 40px;
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  body {
+    background-color: red;
+  }
+
+  .banner {
+    background-color: purple;
+  }
+
+  h1 {
+    color: white;
+    font-size: 40px;
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+}

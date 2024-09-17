@@ -1,0 +1,21 @@
+/* ch-72 basic selectors */
+/* universal selecter */
+* {
+  color: red;
+}
+/* Id selector */
+
+#heading {
+  font-size: 40px;
+  text-transform: uppercase;
+  color: blue;
+}
+/* class selector */
+.heading {
+  font-size: 20px;
+  text-transform: capitalize;
+  color: green;
+}
+p {
+  letter-spacing: 20px;
+}

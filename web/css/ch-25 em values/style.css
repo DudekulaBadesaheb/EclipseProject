@@ -1,0 +1,15 @@
+/* ch-25 em values */
+/* 
+em === relative to the parent
+lem === 16px browser default style
+lem === base value
+ */
+div {
+  font-size: 60px;
+}
+.cat {
+  font-size: 2em;
+}
+.dog {
+  font-size: 120px;
+}

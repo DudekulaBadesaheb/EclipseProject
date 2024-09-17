@@ -1,0 +1,18 @@
+Eclipse Shortcuts
+~~~~~~~~~~~~~~~~~~~~~~~
+CTRL + SHIFT + F						==	Automatic Formatting Code
+CTRL + I								==	Automatic Indentation
+CTRL + F11							==	Execute Code / Run Program
+CTRL + /								==	Single Line Comment
+SHIFT + ALT + J						==	Multi Line Comment
+FORWARD SLASH + * + ENTER			==	Multi Line Comment
+Type main + CTRL + SPACEBAR + ENTER	==	Main Method
+CTRL + SHIFT + O						==	Organize Imports
+Type syso + CTRL + SPACEBAR + ENTER	==	System.out.println();
+CTRL + SPACEBAR						==	Auto Complete Suggestions
+CTRL + SHIFT + S					:	To Save Multiple Class Files at once.
+CTRL + MINUS -						:	Zoom Out
+CTRL + PLUS +						:	Zoom In
+CTRL + D							:	Delete current line 
+CTRL + SHIFT + R					:	Open resource
+ALT + ARROW KEYS					:	Move line up or down

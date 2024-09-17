@@ -1,0 +1,111 @@
+<!-- ch-17 from -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ch-17 from</title>
+    <style>
+      body {
+        background-color: black;
+        color: whitesmoke;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Student Registration form</h1>
+    <hr />
+    <form action="servar.html" method="get">
+      <!-- input for student name -->
+      <label for="name">Student name: </label>
+
+      <input type="text" name="name" id="name" placeholder="name" value="" />
+
+      <br />
+      <br />
+      <!-- input student email -->
+      <label for="email">Student email: </label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="email"
+        required
+      />
+      <!-- input for password -->
+      <br />
+      <br />
+      <label for="password">password: </label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="password"
+      />
+      <br /><br />
+      <!-- input for date of birth -->
+      <label for="dob">Data of birth :</label>
+      <input type="date" name="dob" id="dob" />
+      <br /><br />
+      <!-- input type for gender -->
+      <label for="gender">Gender :</label>
+      <input type="radio" name="gender" id="gender" value="male" />male
+      <input
+        type="radio"
+        name="gender"
+        id="gender"
+        value="female"
+        checked
+      />female <br /><br />
+      <!-- input for fevaret programing language -->
+      <label for="programing">programing language :</label>
+      <input
+        type="checkbox"
+        name="programing"
+        id="programing"
+        value="java"
+      />JAVA
+      <input
+        type="checkbox"
+        name="programing"
+        id="programing"
+        value="python"
+      />PYTHON
+      <input
+        type="checkbox"
+        name="programing"
+        id="programing"
+        value="html"
+      />HTML
+      <input type="checkbox" name="programing" id="programing" value="css" />CSS
+      <input type="checkbox" name="programing" id="programing" value="sql" />SQL
+      <br /><br />
+      <!-- dropdown for favourAT COLOR -->
+      <label for="color">fevaret color:</label>
+      <select name="color" id="color">
+        <option value="White">which</option>
+        <option value="red" selected>red</option>
+        <option value="black">black</option>
+        <option value="gold">gold</option>
+      </select>
+      <br /><br />
+      <!-- input for address -->
+      <label for="address">Address</label>
+      <textarea
+        name="address"
+        id="address"
+        rows="12"
+        cols="30"
+        placeholder="enter address"
+      ></textarea>
+      <br /><br />
+      <hr />
+      <!-- button for submit button -->
+      <!-- <input type="submit" value="SEND" /> -->
+      <button type="submit">SEND</button>
+      <!-- button for reset -->
+      <!-- <input type="reset" value="reset" /> -->
+      <button type="reset">RESET</button>
+    </form>
+  </body>
+</html>

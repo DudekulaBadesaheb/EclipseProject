@@ -1,0 +1,22 @@
+/* ch-53 background-size */
+/* background-size: cover 
+background-size: contain*/
+div {
+  height: 200px;
+  color: red;
+}
+.Big-image {
+  background-image: url(./big-image.jpg);
+  background-repeat: round;
+  background-size: cover;
+}
+.Small-image {
+  background-image: url(./small-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.folder-image {
+  background-image: url(./folder-image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}

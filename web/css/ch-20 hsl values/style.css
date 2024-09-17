@@ -1,0 +1,17 @@
+/* ch-20 hsl values */
+/*
+h=== hue
+s === saturation
+l === lightness
+SYNTAX
+color:hsl(hus, saturation ,lightness0;
+https://www.w3school.com/css/css_colors_hsl.asp
+*/
+h3 {
+  color: hsl(0, 100%, 50%);
+  background-color: hsl(0, 0%, 0%);
+}
+#second {
+  color: burlywood;
+  background-color: orange;
+}

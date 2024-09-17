@@ -1,0 +1,23 @@
+/* ch-76 link state */
+/* STATES OF LINK
+a:link
+a:visited
+a:active
+
+PPSEUDO CLASS
+a:hover
+*/
+a:link {
+  color: aqua;
+}
+a:visited {
+  color: red;
+}
+a:hover {
+  color: blue;
+  border: 2px solid brown;
+}
+a:active {
+  color: green;
+  border: 2px solid green;
+}

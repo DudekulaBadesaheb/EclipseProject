@@ -1,0 +1,5 @@
+stack
+~~~~~~~
+
+stack class implements stack data structure
+It is based on the principal last -in -fist -out(LIFO)

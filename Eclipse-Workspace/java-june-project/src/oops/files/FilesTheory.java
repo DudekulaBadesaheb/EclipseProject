@@ -1,0 +1,12 @@
+package oops.files;
+
+/*
+ * we need to import File class from the java.io package.
+ * It allows us to work with files.
+ * To use File class, we have to create an object of the File class and
+ * specify the filename or directory name.
+ */
+
+public class FilesTheory {
+
+}

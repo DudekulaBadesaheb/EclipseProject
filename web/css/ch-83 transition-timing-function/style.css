@@ -1,0 +1,53 @@
+/* ch-83 transition-timing-function */
+/* Transition: property duration dealy */
+/* Transition: property duration  */
+/* Transition: timing-function delay
+
+transition-timing-function
+--default === by default it is ease
+--ease    === slow start, fast,slow end
+--linear  === same speed start to end
+--ease-in === slow start
+--ease-out === slow end
+--ease-in-out === slow start,fast,slow end
+*/
+div {
+  width: 90px;
+  height: 90px;
+  background-color: blue;
+  color: white;
+  /* display: inline-block; */
+  margin: 10px;
+  transition: all 1s;
+  margin: 5px auto 10px;
+  /* margin-right: auto; */
+}
+
+div:hover {
+  transform: translateX(400px);
+  /* transform: translateY(100px); */
+}
+.ease {
+  transition: all 1s ease;
+  transition-timing-function: ease;
+  background-color: red;
+}
+.linear {
+  transition-timing-function: linear;
+  background-color: green;
+}
+
+.ease-in {
+  transition-timing-function: ease-in;
+  background-color: black;
+}
+.ease-out {
+  transition-timing-function: ease-out;
+  background-color: palevioletred;
+  color: red;
+}
+
+.ease-in-out {
+  transition-timing-function: ease-in-out;
+  background-color: yellow;
+}

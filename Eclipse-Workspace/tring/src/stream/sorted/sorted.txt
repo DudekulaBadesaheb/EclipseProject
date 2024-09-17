@@ -1,0 +1,5 @@
+sorted Method
+~~~~~~~~~~~~
+
+sort()
+the sorted method is used to sost the strem

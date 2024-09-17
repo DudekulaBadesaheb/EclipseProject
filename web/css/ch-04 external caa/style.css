@@ -1,0 +1,20 @@
+/* ch-04 external CSS */
+
+/* Using external css stylesheet we can apply styles to multiple elements on multiple pages*/
+
+h2 {
+  background-color: red;
+  color: white;
+}
+
+h3 {
+  background-color: black;
+  color: red;
+}
+
+a {
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}

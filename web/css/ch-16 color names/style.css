@@ -1,0 +1,19 @@
+/* ch-16 color names */
+/* 
+there are 140 color name in css whith are supported by modern browsers
+
+https://www.w3school.com/cssref/css_colors.php
+ */
+
+#first {
+  color: lightblue;
+  background-color: chocolate;
+}
+#secand {
+  color: crimson;
+  background-color: lemonchiffon;
+}
+#third {
+  color: brown;
+  background-color: indigo;
+}

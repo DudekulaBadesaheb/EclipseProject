@@ -1,0 +1,11 @@
+/* ch-24 percentage values-REALITVE */
+.outer {
+  background-color: blueviolet;
+  width: 400px;
+  height: 200px;
+}
+.iner {
+  background-color: brown;
+  width: 50%;
+  height: 50%;
+}

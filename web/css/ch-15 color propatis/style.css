@@ -1,0 +1,25 @@
+/* ch-15 color propatis */
+/* 
+color === text color /font color
+background-color === background of element
+
+SHORTHAND SYNATX for background-color
+background : value
+
+various options available to apply colors
+ 1.color names( 140 color names)
+ 2. rgb values
+ 3. rgba values
+ 4. hex values / hexadecimal values
+ 5. hsl values
+ 6. visual studio code color options
+ 7. external resources / online resourcess
+
+ */
+div {
+  color: white;
+  background-color: black;
+}
+p {
+  background-color: green;
+}

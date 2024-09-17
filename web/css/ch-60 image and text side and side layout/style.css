@@ -1,0 +1,15 @@
+/* ch-60 image and text side and side layout */
+.banner {
+  border: 5px solid red;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.one {
+  float: right;
+  margin-left: 20px;
+}
+.two {
+  float: left;
+  margin-right: 20px;
+}

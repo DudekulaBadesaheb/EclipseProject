@@ -1,0 +1,38 @@
+/* ch-89 text-shadow box-shadow */
+/* text-shadow: offset-x  offset-y blur-radius
+color;
+
+bo-shadow: offset-x  offset-y blur-radius  spread-radius color;
+
+online resources for text shadow
+https://cssgenerator.org/text-shadow-css-generator.html
+
+online resources for box shadow
+https://www.cssmatic.com/box-shadow
+
+*/
+.text {
+  text-shadow: 1px 1px 5px blue;
+  text-shadow: 5px 1px 3px red;
+  text-shadow: 1px 5px 3px red;
+  text-shadow: 1px 1px 6px red;
+  text-shadow: 1px 1px 10px red;
+}
+.box {
+  width: 200px;
+  height: 100px;
+  margin: 20px;
+  background-color: blue;
+  box-shadow: 3px 5px 5px green;
+  box-shadow: 5px 5px 5px orange;
+}
+
+.box:hover {
+  background-color: lawngreen;
+  -webkit-box-shadow: 10px 10px 20px 10px rgba(160, 16, 173, 1);
+  -moz-box-shadow: 10px 10px 20px 10px rgba(160, 16, 173, 1);
+  box-shadow: 10px 10px 20px 10px rgba(160, 16, 173, 1);
+}
+.text:hover {
+  text-shadow: 9px 27px 0px rgba(18, 228, 56, 0.49);
+}

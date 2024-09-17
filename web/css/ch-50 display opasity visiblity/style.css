@@ -1,0 +1,32 @@
+/* ch-50 display opasity visiblity */
+/* 
+display : none;
+element will be taken out from the flow of the document
+
+opcity:1;
+element is solid
+
+opacity:0;
+element if full transparen
+visibility:hidden;
+element becomes hidden but it will remain in the flow of the document*/
+div {
+  background-color: blue;
+  color: white;
+  margin: 10px;
+}
+.none {
+  display: none;
+}
+.opacity-1 {
+  opacity: 1;
+}
+.opacity-5 {
+  opacity: 0.5;
+}
+.opacity-0 {
+  opacity: 0;
+}
+.visibility {
+  visibility: hidden;
+}

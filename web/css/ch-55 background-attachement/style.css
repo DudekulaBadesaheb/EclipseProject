@@ -1,0 +1,32 @@
+/* ch-55 background attachement */
+div {
+  min-height: 100vh;
+  color: red;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  /* singil imaege*/
+  /* background-image: url(./folder-image.jpg);
+  background-attachment: fixed;*/
+}
+.big-imaege {
+  background-image: url(./big-image.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.small-imaege {
+  background-image: url(./small-image.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.folder-imaege {
+  background-image: url(./folder-image.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}

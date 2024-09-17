@@ -1,0 +1,84 @@
+/* ch-84 animation */
+/* TRANSITION 0---100%
+ change over time
+
+
+ANIMATION  0 1% 2% 3% ....100% 
+change over time with points
+
+property
+aniimation-name:
+aniimation-duration:
+aniimation-iteration-count:
+
+SHORTHAND
+animation: name duration iteration - count
+*/
+div {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+
+.transition {
+  background-color: rgb(51, 148, 153);
+  transition: all 2s linear;
+}
+
+.transition:hover {
+  background-color: yellowgreen;
+  transform: translateX(100px);
+}
+.animation {
+  background-color: blue;
+  animation-name: cat;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation: cat 1s infinite;
+}
+@keyframes cat {
+  0% {
+    transform: translateX(40px);
+  }
+  10% {
+    transform: translateY(100px);
+    background-color: red;
+    border-radius: 50%;
+  }
+  30% {
+    transform: translateY(140px);
+    background-color: red;
+    border-radius: 50%;
+  }
+  40% {
+    transform: translateY(170px);
+    background-color: red;
+    border-radius: 50%;
+  }
+  50% {
+    transform: translateY(200px);
+    background-color: red;
+    border-radius: 50%;
+  }
+  70% {
+    transform: translateY(240px);
+    background-color: red;
+    border-radius: 50%;
+  }
+  80% {
+    transform: translateY(270px);
+    background-color: red;
+    border-radius: 50%;
+  }
+  90% {
+    transform: translateY(300px);
+    background-color: red;
+    border-radius: 50%;
+  }
+
+  100% {
+    transform: translateX(360px);
+    background-color: green;
+    border-radius: 50%;
+  }
+}

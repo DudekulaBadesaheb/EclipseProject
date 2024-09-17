@@ -1,0 +1,7 @@
+Recursion
+~~~~~~~~~~
+
+Recursion is the technique of making a method call itself.
+
+This technique provides a way to break complicated problems
+into simple problems which are easier to solve.

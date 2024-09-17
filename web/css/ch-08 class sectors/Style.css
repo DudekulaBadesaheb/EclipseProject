@@ -1,0 +1,11 @@
+/* ch-08 class sectors */
+/* class selecter
+. (dot symbol ===class*/
+.green {
+  color: green;
+  background-color: black;
+}
+.red {
+  color: red;
+  background-color: black;
+}

@@ -1,0 +1,62 @@
+/* ch-70 pseudo element with image */
+img {
+  width: 100%;
+  display: block;
+  position: relative;
+}
+div {
+  width: 60%;
+  margin: 100% auto;
+  border: 2px solid red;
+  position: relative;
+}
+
+div::before {
+  content: "";
+
+  width: 100%;
+  height: 100%;
+  border: 2px solid red;
+  position: absolute;
+  box-sizing: border-box;
+  display: block;
+  top: -80px;
+  left: -80px;
+  z-index: -2;
+  background-color: green;
+  transition: all 0.5s linear;
+}
+
+div::after {
+  content: "";
+
+  width: 100%;
+  height: 100%;
+  border: 2px solid red;
+  position: absolute;
+  box-sizing: border-box;
+  top: -40px;
+  left: -40px;
+  z-index: -1;
+  background-color: gray;
+  transition: all 0.5s linear;
+}
+/* div::before {
+  content: "hello";
+  display: block;
+  background-color: rgb(24, 50, 202);
+  font-size: 2rem;
+  font-weight: bold;
+}
+div::after {
+  content: "hello";
+  display: block;
+  background-color: blue;
+  font-size: 2rem;
+  font-weight: bold;
+} */
+div:hover::after,
+div:hover::before {
+  top: 0;
+  left: 0;
+}

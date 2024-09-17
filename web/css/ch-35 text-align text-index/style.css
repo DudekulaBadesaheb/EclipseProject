@@ -1,0 +1,31 @@
+/* ch-35 text-align text-index */
+/* 
+TEXT-ALIGN
+text-align: left(DEFAULT)
+text-align: right
+text-align: center
+
+TEXT-INDENT
+text-align: 5rem
+
+ */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yesteryear&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+.main {
+  font-family: "Yesteryear", cursive;
+  text-align: right;
+}
+.one {
+  text-indent: 10rem;
+  text-indent: 5rem;
+  font-weight: bold;
+}
+
+.two {
+  font-weight: lighter;
+  text-align: left;
+}

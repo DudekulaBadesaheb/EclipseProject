@@ -1,0 +1,16 @@
+/* 
+PROPERTIES
+LINE-HEIGHT
+LETTER-SPACING
+word -spacing */
+
+h1 {
+  font-size: 40px;
+  line-height: 0.5em;
+  letter-spacing: 30px;
+  background-color: blue;
+  color: red;
+}
+.one {
+  letter-spacing: 1px;
+}

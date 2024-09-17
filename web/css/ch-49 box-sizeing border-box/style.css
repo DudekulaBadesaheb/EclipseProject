@@ -1,0 +1,25 @@
+/* ch-49 box-sizeing border-box */
+* {
+  padding: 0;
+  margin: 0;
+}
+.box-1,
+.box-2,
+.box-3 {
+  width: 200px;
+  height: 200px;
+  color: white;
+}
+.box-1 {
+  background-color: red;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.box-2 {
+  background-color: coral;
+  /* padding: 20px; */
+}
+.box-3 {
+  background-color: crimson;
+  padding: 20px;
+}

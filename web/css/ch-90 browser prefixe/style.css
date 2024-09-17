@@ -1,0 +1,52 @@
+/* ch-90 browser prefixe */
+/* 
+browser support for css propertis
+
+https://caniuse.com/
+
+website for generating browser prefix
+https://autoprefixer.github.io/
+*/
+.box {
+  width: 200px;
+  height: 100px;
+  margin: 20px;
+  background-color: black;
+  transition: all 2s linear;
+}
+.box:hover {
+  box-shadow: 0 0 10px red;
+  background: linear-gradient(to top, white, blue, black);
+  transform: translateX(200px);
+  transition: all 2s linear;
+}
+
+.box:hover {
+  /*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+  .box:hover {
+    -webkit-box-shadow: 0 0 10px red;
+    box-shadow: 0 0 10px red;
+    background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(white),
+      color-stop(blue),
+      to(black)
+    );
+    background: -o-linear-gradient(bottom, white, blue, black);
+    background: linear-gradient(to top, white, blue, black);
+    -webkit-transform: translateX(200px);
+    -ms-transform: translateX(200px);
+    transform: translateX(200px);
+    -webkit-transition: all 2s linear;
+    -o-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+}

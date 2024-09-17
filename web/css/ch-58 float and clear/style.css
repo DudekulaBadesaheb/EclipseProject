@@ -1,0 +1,21 @@
+/* ch-58 float and clear */
+/* 
+float: none; (DEFAULT)
+float: left;
+float: right;
+
+clear: none; (Default)
+clear: left;
+clear: right;
+clear: both;
+*/
+.banner {
+  border: 5px solid red;
+  padding: 10px;
+}
+img {
+  float: right;
+}
+p {
+  clear: right;
+}

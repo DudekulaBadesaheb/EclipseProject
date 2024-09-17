@@ -1,0 +1,26 @@
+/* ch-21 personal blog semantic tags */
+
+html {
+  font-size: 20px;
+}
+/* Style for dark background & white blog */
+body {
+  background-color: #333;
+  color: whitesmoke;
+}
+
+/* style for table */
+table,
+tr,
+th,
+td,
+caption {
+  border: 1px solid #eee;
+  font-family: "Courier New", Courier, monospace;
+  border-collapse: collapse;
+  padding: 0.5rem;
+}
+/* Style for link */
+a {
+  color: rgb(18, 184, 9);
+}
