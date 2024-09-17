@@ -9,10 +9,20 @@
 		<description></description>
 		<servlet-class>webapp.servlet.AddServlet</servlet-class>
 	</servlet>
+	<servlet>
+		<servlet-name>GirHubConnecter</servlet-name>
+		<display-name>GirHubConnecter</display-name>
+		<description></description>
+		<servlet-class>webapp.servlet.GirHubConnecter</servlet-class>
+	</servlet>
 
 	<servlet-mapping>
 		<servlet-name>AddServlet</servlet-name>
 		<url-pattern>/add</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>GirHubConnecter</servlet-name>
+		<url-pattern>/GirHubConnecter</url-pattern>
 	</servlet-mapping>
 
 </web-app>
